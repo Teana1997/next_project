@@ -1,0 +1,43 @@
+{
+  // 配置项，用于指定在搜索时应该排除的文件夹和文件
+  "search.exclude": {
+    "/node_modules": true, // 排除node_modules文件夹
+    "dist": true, // 排除dist文件夹
+    "pnpm-lock.sh": true // 排除pnpm-lock.sh文件
+  },
+  // 编辑器配置，保存时自动格式化
+  "editor.formatOnSave": true,
+  // 针对特定文件类型的默认格式化工具配置
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // JavaScript文件的默认格式化工具
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // JavaScript React文件的默认格式化工具
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // TypeScript文件的默认格式化工具
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // TypeScript React文件的默认格式化工具
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features" // JSON文件的默认格式化工具
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // HTML文件的默认格式化工具
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // Markdown文件的默认格式化工具
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // CSS文件的默认格式化工具
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // LESS文件的默认格式化工具
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // SCSS文件的默认格式化工具
+  },
+  // Live Server插件配置，设置服务器端口
+  "liveServer.settings.port": 300
+}
